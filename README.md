@@ -9,9 +9,9 @@ Simple bungeecord portal plugin that listens for worldguard events
 - Download the latest release.
 - Copy the .jar to your server `plugins` folder alongside with the dependency plugins.
 - Restart/Reload your server.
-- Configure every region you want to link to a portal inside `plugins/WGPortals/config.yml`.
+- Configure every region you want to link to a server inside `plugins/WGPortals/config.yml`.
 - Restart/Reload your server.
-- Jump in a portal and enjoy! :tada:
+- Jump in a region and enjoy! :tada:
 
 ## Configuration example
 ```
