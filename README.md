@@ -6,12 +6,12 @@ Simple Bukkit transportation plugin that listens for WorldGuard enterRegionEvent
 - [WorldGuard Events](https://www.spigotmc.org/resources/worldguard-events.65176/)
 
 ## Getting Started
-- Download the latest release.
-- Copy the .jar to your server `plugins` folder alongside with the dependency plugins.
-- Restart/Reload your server.
-- Configure every region you want to link to a server inside `plugins/WGPortals/config.yml`.
-- Restart/Reload your server.
-- Jump in a region and enjoy! :tada:
+1. Download the latest release.
+2. Copy the .jar to your server `plugins` folder alongside with the dependency plugins.
+3. Restart/Reload your server.
+4. Configure every region you want to link to a server inside `plugins/WGPortals/config.yml`.
+5. Restart/Reload your server.
+6. Jump in a region and enjoy! :tada:
 
 ## Configuration example
 ```
