@@ -1,0 +1,7 @@
+name: WGPortals
+version: ${project.version}
+main: dev.foolen.wgportals.WGPortals
+api-version: 1.13
+authors: [tjeufoolen]
+website: https://www.tjeufoolen.nl/
+depend: [WorldGuardEvents]
