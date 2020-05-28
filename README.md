@@ -13,5 +13,17 @@ Simple bungeecord portal plugin that listens for worldguard events
 - Restart/Reload your server.
 - Jump in a portal and enjoy! :tada:
 
+## Configuration example
+```
+# Thank you for using this plugin.
+# You can easily connect a WorldGuard region to a BungeeCord server using the following format.
+#
+# regions:
+#   region_name: Servername
+regions:
+  survival_portal: Survival
+  skyblock_portal: Skyblock
+```
+
 ## Authors:
 - [Tjeu Foolen](https://github.com/tjeufoolen)
