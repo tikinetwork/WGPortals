@@ -1,5 +1,5 @@
 # WGPortals
-Simple bukkit transportation plugin that listens for worldguard enterRegionEvent and sends player to another server.
+Simple Bukkit transportation plugin that listens for WorldGuard enterRegionEvent and sends player to another server.
 
 ## Dependencies
 - [WorldGuard](https://dev.bukkit.org/projects/worldguard)
