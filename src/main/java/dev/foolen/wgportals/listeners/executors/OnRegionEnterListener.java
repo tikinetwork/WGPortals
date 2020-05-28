@@ -1,4 +1,4 @@
-package dev.foolen.wgportals.listeners;
+package dev.foolen.wgportals.listeners.executors;
 
 import dev.foolen.wgportals.WGPortals;
 import net.raidstone.wgevents.events.RegionEnteredEvent;
@@ -29,13 +29,15 @@ public class OnRegionEnterListener implements Listener {
     private void sendToServer(Player player, String server) {
         ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
         DataOutputStream dataOutputStream = new DataOutputStream(byteArrayOutputStream);
+
         try {
             dataOutputStream.writeUTF("Connect");
             dataOutputStream.writeUTF(server);
         } catch (IOException e) {
             e.printStackTrace();
         }
-        player.sendPluginMessage(WGPortals.getInstance(), "BungeeCord", byteArrayOutputStream.toByteArray());
+
         player.sendMessage(ChatColor.GREEN + "Connecting to server...");
+        player.sendPluginMessage(WGPortals.getInstance(), "BungeeCord", byteArrayOutputStream.toByteArray());
     }
 }

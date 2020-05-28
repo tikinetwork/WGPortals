@@ -1,6 +1,6 @@
 package dev.foolen.wgportals;
 
-import dev.foolen.wgportals.listeners.ListenersModules;
+import dev.foolen.wgportals.listeners.ListenersModule;
 import org.bukkit.configuration.ConfigurationSection;
 import org.bukkit.event.Listener;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -26,7 +26,7 @@ public class WGPortals extends JavaPlugin implements Listener {
         this.getServer().getMessenger().registerOutgoingPluginChannel(this, "BungeeCord");
 
         // Register listeners
-        new ListenersModules();
+        new ListenersModule();
     }
 
     public static WGPortals getInstance() {
