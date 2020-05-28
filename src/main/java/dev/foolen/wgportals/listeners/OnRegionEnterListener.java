@@ -21,12 +21,9 @@ public class OnRegionEnterListener implements Listener {
 
         String regionName = e.getRegionName();
 
-        player.sendMessage("ENTERED REGION"); //REMOVE
         if (WGPortals.getInstance().regions.containsKey(regionName)) {
-            player.sendMessage("GOT IN IF"); //REMOVE
             sendToServer(player, WGPortals.getInstance().regions.get(regionName));
         }
-        player.sendMessage("END"); //REMOVE
     }
 
     private void sendToServer(Player player, String server) {
